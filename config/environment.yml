@@ -1,0 +1,21 @@
+environments:
+
+ local:
+  scheme: http
+  host: dice.com
+  port: 3000
+
+ development: 
+  scheme: http
+  host: localhost
+  port: 3000
+
+ test:
+  scheme: http
+  host: localhost
+  port: 3000 
+
+ production: 
+  scheme: http
+  host: 127.0.0.1
+  port: 3000
